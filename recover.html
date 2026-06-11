@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login page</title>
+  <link
+  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <link rel="stylesheet" href="./css/recover.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="header">
+        <img src="imges/To-Do-Logo 2.png" alt="Logo page" class="header-logo">
+      </div>
+  
+      <form id="loginForm" novalidate class="login-form">
+        <div class="email-group">
+          <label for="email" class="get-email__text">Enter email to Recover Account.</label>
+          <input type="email" id="email" class="get-email__input" required>
+          <small class="error-msg" id="emailError"></small>
+        </div>
+        <button type="submit" class="login-btn" id="submitBtn">Send</button>
+      </form>
+
+      <div class="sign-in">
+        Do you have an account?
+        <a href="./sign_in.html" class="sign-in__link">Login now.</a>
+      </div>
+    </div> 
+    
+  </div>
+  <script src="./script/recover.js"></script>
+</body>
+</html>

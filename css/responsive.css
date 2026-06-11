@@ -1,0 +1,160 @@
+/* Mobile first */
+@media (max-width: 576px){ 
+  .header-login{ 
+    display: none;
+  }
+  .header-filter{ 
+    display: none;
+  }
+  .header-logo{ 
+    width: 154px;
+    height: 40px;
+  }
+  /* Add task */
+  .add-task__input,
+  .add-task__link{ 
+    font-size: 15px;
+    padding: 15px 15px;
+  }
+  /* task status */
+  .task-status__item{ 
+    font-size: 15px;
+  }
+  .task-status__circale{ 
+    gap: 12px;
+  }
+  .rounded-circle{ 
+    width: 30px;
+    height: 30px;
+    border: 3px solid #737373;
+  }
+  .checked-orange__check{ 
+    top: 4px;
+    width: 22px;
+    height: 22px;
+  }
+  .task-status__edit-container{ 
+    top: 5px;
+    right: 30px;
+  }
+  .task-status__delete-icon{ 
+    width: 17px;
+    height: 17px;
+  }
+  .task-status__text::after{ 
+    width: 80%;
+    top: 44px;
+    left: 44px;
+  }
+  .clear-complate__icon {
+    width: 18px;
+    height: 21px;
+  }
+  .clear-complate__text{ 
+    font-size: 15px;
+  }
+  .error-msg{ 
+    top: 157px;
+    font-size: 12px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 577px) and (max-width: 768px){ 
+  .header-login{ 
+    display: none;
+  }
+  .header-filter{ 
+    display: none;
+  }
+  .header-logo{ 
+    width: 200px;
+    height: 62px;
+  }
+  .wrapper{ 
+    width: 100%;
+  }
+  /* Add task */
+  .add-task__input,
+  .add-task__link{ 
+    font-size: 17px;
+    padding: 16px 20px;
+  }
+  /* Task status */
+  .task-status__item{ 
+    font-size: 17px;
+  }
+  .task-status__circale{ 
+    gap: 12px;
+  }
+  .rounded-circle{ 
+    width: 35px;
+    height: 35px;
+    border: 3px solid #737373;
+  }
+  .task-status__delete-icon{ 
+    width: 20px;
+    height: 20px;
+  }
+  .task-status__text::after{ 
+    width: 88%;
+    top: 48px;
+    left: 44px;
+  }
+  .clear-complate__icon {
+    width: 19px;
+    height: 22px;
+  }
+  .clear-complate__text{ 
+    font-size: 17px;
+  }
+  .error-msg{ 
+    top: 185px;
+    font-size: 13px;
+  }
+}
+
+/* Lap top */
+@media (min-width: 769px) and (max-width: 992px){ 
+  .nav-btn,
+  .mobile{ 
+    display: none;
+  }
+  .btN{ 
+    font-size: 16px;
+  }
+  .header-logo{ 
+    width: 216px;
+    height: 62px;
+  }
+  .header__darkmood{ 
+    right: 160px;
+    width: 18px;
+    height: 18px;
+  }
+  /* Task status */
+  .task-status__delete-icon{ 
+    width: 20px;
+    height: 24px;
+  }
+  .task-status__text::after{ 
+    width: 89%;
+  }
+  
+}
+
+/* Desktop */
+@media (min-width: 993px){ 
+  .nav-btn,
+  .mobile{ 
+    display: none;
+  }
+  /* Task status */
+  .task-status__delete-icon{ 
+    width: 20px;
+    height: 24px;
+  }
+  .task-status__text::after{ 
+    width: 92%;
+  }
+}

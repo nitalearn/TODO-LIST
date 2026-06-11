@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login page</title>
+  <link
+  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <link rel="stylesheet" href="./css/sign_in.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="header">
+        <img src="imges/To-Do-Logo 2.png" alt="Logo page" class="header-logo">
+      </div>
+  
+      <form id="loginForm" novalidate class="login-form">
+        <div class="email-group">
+          <label for="text" class="get-email__text">USERNAME</label>
+          <input type="text" id="username" class="get-email__input" required>
+          <small class="error-msg" id="usernameError"></small>
+        </div>
+      
+        <div class="password-group">
+          <label for="password" class="get-password__text">PASSWORD</label>
+          <input type="password" class="get-password__input" id="password">
+          <small class="error-msg" id="passwordError"></small>
+          <span class="password-see" id="passwordSee">
+            <i class="fas fa-eye"></i>
+          </span>
+        </div>
+      
+        <button type="submit" class="login-btn">Sign in</button>
+      </form>
+
+      <div class="lost-password">
+        <a href="./recover.html" class="lost-password__link">Forgot your password?!</a>
+        <span class="remember-account">
+          Remember me.
+          <input type="checkbox">
+        </span>
+      </div>
+      <div class="sign-up">
+        You do not have an account?
+        <a href="./sign up.html" class="sign-up__link">Make one right now.</a>
+      </div>
+    </div> 
+    
+  </div>
+  <script src="./script/sign_in.js"></script>
+</body>
+</html>
